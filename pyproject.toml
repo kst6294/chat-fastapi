@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "y"
+version = "0.1.0"
+description = ""
+authors = ["y"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.103.1"
+broadcaster = "^0.2.0"
+uvicorn = "^0.23.2"
+asyncio-redis = "^0.16.0"
+jinja2 = "^3.1.2"
+websockets = "^11.0.3"
+ipdb = "^0.13.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
